@@ -1,2 +1,2 @@
 # BurgessLab
-Burgess Lab repository
+This repository is for code used by the Burgess Lab at the University of Illinois Urbana-Champaign.
