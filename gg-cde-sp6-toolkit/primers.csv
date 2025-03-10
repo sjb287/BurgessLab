@@ -1,0 +1,75 @@
+﻿Primer name,Sequence (5' - 3'),Purpose,Template,Oligo modifications
+F.T7mut2.GGAG.pL0R,AAGCTCTTCATCCGGAGAATTCTAATACGACT,L0 T7mut2 cloning,T7mut2 synthesized gene fragment,None
+R.T7mut2.AGGT.pL0R,TTGCTCTTCTTCGACCTTTTCTCCTCTTTTCT,,,None
+R.T7mut2.AATG.pL0R,TTGCTCTTCTTCGcatTTTTCTCCTCTTTTCTCTCTC,,,None
+F.specR.AGGT.pL0R,AAGCTCTTCATCCAGGTATGCGCGAAGCGGTT,L0 specR cloning to CDS2 overhangs,"pC0.028 (Vasudevan et al., 2019)",None
+R.specR.GCTT.pL0R,TTGCTCTTCTTCGAAGCTTACTTGCCGACCAC,,,None
+F.Gibson.B.specR,tctgcgctctgctgaagccagttaccttcggaaaaagagt,"L0 specR mutant cloning. In brief, for each stop codon, PCRs B and A were set up using the corresponding stop codon primers and the corresponding general Gibson primers. They were then purified and assembled through Gibson reaction.",pIM004,None
+B.reverse.pL0r.specR.E3*,gtactcacttcagcaataaccgcttagcgcatacctCGAG,,,None
+B.reverse.pL0r.specR.K43*,aggtcaatatcgctatgtggctacaagcccccatcgaccg,,,None
+B.reverse.pL0r.specR.L13*,caataacaccgaccacttcagattactgggtactcacttcagc,,,None
+B.reverse.pL0r.specR.L33*,catcgaccgcggaaccatactaatgtaccgctagtaaagt,,,None
+B.reverse.pL0r.specR.M1I.C*,cttcagcaataaccgcttcgcggatacctCGAGACCAGAagaccGAATTC,,,None
+B.reverse.pL0r.specR.M1L,cttcagcaataaccgcttcgcgcagacctCGAGACCAGAagaccGAATTC,,,None
+B.reverse.pL0r.specR.M1T,cttcagcaataaccgcttcgcgcgtacctCGAGACCAGAagaccGAATTC,,,None
+B.reverse.pL0r.specR.Q12*,caccgaccacttcagataactaggtactcacttcagcaat,,,None
+B.reverse.pL0r.specR.S36*,tcaagcccccatcgaccgcttaaccatacaaatgtaccgc,,,None
+B.reverse.pL0r.specR.W99*,cgcgtttagccggataccgctaaggaatgatatcatcatg,,,None
+R.Gibson.A.specR,actctttttccgaaggtaactggcttcagcagagcgcaga,,,None
+A.forward.pL0r.specR.E3*,CTCGaggtatgcgctaagcggttattgctgaagtgagtac,,,None
+A.forward.pL0r.specR.K43*,cggtcgatgggggcttgtagccacatagcgatattgacct,,,None
+A.forward.pL0r.specR.L13*,gctgaagtgagtacccagtaatctgaagtggtcggtgttattg,,,None
+A.forward.pL0r.specR.L33*,actttactagcggtacattagtatggttccgcggtcgatg,,,None
+A.forward.pL0r.specR.M1I.C*,GAATTCggtctTCTGGTCTCGaggtatccgcgaagcggttattgctgaag,,,None
+A.forward.pL0r.specR.M1L,GAATTCggtctTCTGGTCTCGaggtctgcgcgaagcggttattgctgaag,,,None
+A.forward.pL0r.specR.M1T,GAATTCggtctTCTGGTCTCGaggtacgcgcgaagcggttattgctgaag,,,None
+A.forward.pL0r.specR.Q12*,attgctgaagtgagtacctagttatctgaagtggtcggtg,,,None
+A.forward.pL0r.specR.S36*,gcggtacatttgtatggttaagcggtcgatgggggcttga,,,None
+A.forward.pL0r.specR.W99*,catgatgatatcattccttagcggtatccggctaaacgcg,,,None
+F.sp6mut2.GGAG.pL0R,AAGCTCTTCATCCGGAGAATTCATT,L0 SP6mut2 cloning,SP6mut2 synthesized gene fragment,None
+R.sp6mut2.AGGT.pL0R,TTGCTCTTCTTCGACCTTTTCTCCT,,,None
+F.UGI.AATG.pL0R,AAGCTCTTCATCCaatgaccaacctttccgacat,L0 UGI cloning,"pHyo094 (Park and Kim, 2021)",None
+R.UGI.GCTT.pL0R,TTGCTCTTCTTCGaagcttacagcatcttgatcttgtt,,,None
+F.TadA8E.AATG.pL0R,AAGCTCTTCATCCaatgagtgaagttgaattcagccatgaatattggatgc,L0 TadA8E cloning,"pDae079 (Seo et al., 2023)",None
+R.TadA8E.AGGT.pL0R,TTGCTCTTCTTCGacctaaactttcgggtgtggcggac,,,None
+F.pBAD.dom.F1F,AAGCTCTTCATCCggagaagaaaccaattgtccatattgcatc,Domestication of pBAD and araC pBAD operon,"pC0.093 (Vasudevan et al., 2019)",None
+R.pBAD.dom.F1R,AAGCTCTTCAtgccagtaaaagacgcagt,,,None
+F.pBAD.dom.F2F,AAGCTCTTCAgcacttctcgctaaccaaac,,,None
+F.pBAD.dom.F2R,TTGCTCTTCTTCGcatttatggagaaacagtagagagttgc,,,None
+F.araC-pBAD.dom.F1F,AAGCTCTTCATCCggagcaaatggacgaagcagggat,,"pDae079 (Seo et al., 2023)",None
+R.araC-pBAD.dom.F1R,AAGCTCTTCAtgccagtaaaagacgcagt,,,None
+F.araC-pBAD.dom.F2F,AAGCTCTTCAgcacttctcgctaaccaaac,,,None
+F.araC-pBAD.dom.F2R,TTGCTCTTCTTCGcatttgccatggtgaattcctcc,,,None
+F.T7RNAP.dom.F1F,AAGCTCTTCActccggcttcatcggtagtt,Domestication of T7 RNAP (BpiI free),pIM021,None
+F.T7RNAP.dom.F1R,AAGCTCTTCAgtccggcttcatcggtagtt,,,None
+F.T7RNAP.dom.F2F,AAGCTCTTCAgaggacatcgatatgaacccc,,,None
+F.T7RNAP.dom.F2R,AAGCTCTTCAgtatcttccaggacttgttgc,,,None
+F.T7RNAP.dom.F3F,AAGCTCTTCAtaccattcagcctgcgatcg,,,None
+F.T7RNAP.dom.F3R,TTGCTCTTCTTCGaagcttaggcgaatgcgaa,,,None
+F.rhaB.GGAG.pL0R,AAGCTCTTCATCCGGAGctggctaaatacggaaggaa,L0 rhaB cloning,"pSIJ8 (Jensen et al., 2015)",None
+R.rhaB.AATG.pL0R,TTGCTCTTCTTCGCATTctagtatttctcctcaatttcatta,,,None
+F.T7RNAP.Dae.AGGT.pL0R,AAGCTCTTCATCCaggtaacacgattaacatcgctaagaac,L0 cloning of T7 RNAP with alternative codon usage,"pDae079 (Seo et al., 2023)",None
+R.T7RNAP.Dae.GCTT.pL0R,TTGCTCTTCTTCGAAGCttacgcgaacgcgaagtc,,,None
+F.T7RNAP.Dae.AATG.pL0R,AAGCTCTTCATCCaatgaacacgattaacatcgctaagaac,,,None
+F.new.spacerOdd 1,GCATGGTCTCAggagCCTATTCTGGTGGAACTGGATG,"Cloning of compact, non-repetitive spacers",,None
+F.new.spacerOdd 2,GCATGGTCTCAggagGAAGGCGATACCCTGGTAAAC,,,None
+F.new.spacerOdd 3,GCATGGTCTCAggagCGCAAAGCGTTCTGTCTAAAG,,,None
+F.new.spacerOdd 4,GCATGGTCTCAggagGCTGACCCTGAAGTTCATCT,,,None
+F.new.spacerEven 1,GCATGCTCTTCAatgCAAGGAGGACGGCAACAT,,,None
+F.new.spacerEven 2,GCATGCTCTTCAatgGAGTTCGAAATCGAAGGTGAAG,,,None
+F.new.spacerEven 3,GCATGCTCTTCAatgCGAGTGAAACACAGGAAGATCA,,,None
+F.new.spacerEven 4,GCATGCTCTTCAatgCTGCGCCAATTGATGACAATAC,,,None
+R.new.spacerOdd 1,GCATGGTCTCAagcgTGCTTCATATGGTCCGGATAAC,,,None
+R.new.spacerOdd 2,GCATGGTCTCAagcgAACAGGACCATCACCGATTG,,,None
+R.new.spacerOdd 3,GCATGGTCTCAagcgTGAGCCAGTGTGACTCTAGTA,,,None
+R.new.spacerOdd 4,GCATGGTCTCAagcgGTCTTGTAGTTGCCGTCGT,,,None
+R.new.spacerEven 1,GCATGCTCTTCAaccGGACTGGTAGCTCAGGTAGT,,,None
+R.new.spacerEven 2,GCATGCTCTTCAaccCGTTCCCATTTGAAACCTTCC,,,None
+R.new.spacerEven 3,GCATGCTCTTCAaccACCGTTGCCCTTCTCAATAC,,,None
+R.new.spacerEven 4,GCATGCTCTTCAaccCTGAAACCACAGCCACATTAAC,,,None
+F.JUMP27.GOI.seq,aNNNNNNNctcgggcaaatcgctgaata,"Extracting gene of interest from an evolving/evolved population, where N7 are multiplexing barcodes",Any pJUMP27 plasmid,None
+R.JUMP27.GOI.seq,tNNNNNNNcttgtgcaatgtaacatcagagatt,,,None
+Barcode 1,GATCATG,"Barcodes used for multiplexing, see above",N/A,
+Barcode 2,TACATGG,,,
+Barcode 3,AAGCACC,,,
+Barcode 4,TGGCTCA,,,
